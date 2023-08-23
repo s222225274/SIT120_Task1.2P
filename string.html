@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScipt String Methods</title>
+        <link rel = "stylesheet" type = "text/css" href = "styling.css">
+    </head>
+
+<body>
+    <script>
+
+        //This is for the 5 string methods
+        let text = "Rose Williams";
+        let textLength = text.length;
+        let textSlice = text.slice(5, 9);
+        let textUpper = text.toUpperCase();
+        let textLower = text.toLowerCase();
+        let textChar = text.charCodeAt(1);
+
+        //This is to display all the string methods
+        document.write ('<h3>JavaScript String Methods</h3>');
+        document.write ('The chosen string is: ' + text);
+        document.write ('<li>' + 'The length of the ' + text + ' is ' + textLength + ' ' + '</li>' + '<br>');
+        document.write ('<li>' + 'The sliced (extracted) part of the text is: ' + textSlice + ' ' + '</li>' + '</br>');
+        document.write ('<li>' + 'The conversion is to uppercase: ' + textUpper + '</li>' + '</br>');
+        document.write ('<li>' + 'The conversion is to lowercase: ' + textLower + '</li>' + '</br>');
+        document.write ('<li>' + 'The charCodeAt(1) of the text is: ' + textChar + '</li>' + '</br>');
+
+    </script>
+</body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScipt Array Methods</title>
+        <link rel = "stylesheet" type = "text/css" href = "styling.css">
+    </head>
+
+<body>
+
+    <h1 class = "heading_3">JavaScript Array Methods</h1>
+    
+    <p class = "p3">
+        One of the method of the array that I have used is 'pop()' which removes the last element from the array. <br><br>
+        So the original array is "['Rose', 'Tulip', 'Helen', 'Gauri']". </br></p>
+    </p>
+
+    <script>
+
+        //This is for the 5 array methods
+        let array = ['Rose', 'Tulip', 'Helen', 'Gauri'];
+        let arrayLength = array.length;
+        let arrayPop = array.pop();
+        let arrayPush = array.push("Jasmine");
+        let arrayUnshift = array.unshift("Face");
+        let arrayString = array.toString();
+
+
+        //This is to display all the array methods
+        document.write ('<h3>JavaScript Array Method Results</h3>');
+        document.write ('The chosen array sample is: ' + array);
+        document.write ('<li>' + 'The length of the array is: ' + arrayLength + '</li>' + '<br>');
+        document.write ('<li>' + 'The pop() method result: ' + arrayPop + '</li>' + '<br>');
+        document.write ('<li>' + 'The push() method result is: ' + arrayPush + '</li>' + '<br>');
+        document.write ('<li>' + 'The unshift() method result is: ' + arrayUnshift + '</li>' + '<br>');
+        document.write ('<li>' + 'The toString() method result is: ' + arrayString + '</li>' + '<br>');
+
+    </script>
+</body>

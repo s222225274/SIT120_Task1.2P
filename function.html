@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Function Methods</title>
+    <link rel = "stylesheet" type = "text/css" href = "styling.css">
+</head>
+
+<body>
+
+    <h1 class = "heading_5">JavaScript Function Methods</h1>
+
+    <p class = "p5">
+        This are the function methods in this website.
+    </p>
+
+    <p>The result of adding 89 and 17 is: <span id="result"></span></p>
+
+    <p id = "result_2"></p>
+
+    <script>
+        //this is the first function
+        function adding(x, y) 
+        {
+            var sum = x + y;
+            return sum;
+        }
+
+        var result = adding(89, 17);
+        document.getElementById("result").textContent = result;
+
+
+        let text = "The temperature for today is " + to_fahrenheit(90) + " Fahrenheit.";
+        document.getElementById("result_2").innerHTML = text;
+
+        function to_fahrenheit(celcius) {
+        return (celcius - 32) * (5/9);
+} 
+    </script>
+
+</body>
+
+</html>

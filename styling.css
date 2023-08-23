@@ -1,0 +1,79 @@
+.header
+{
+    color: red;
+    text-align: center;
+
+}
+
+.heading_1
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.heading_2
+{
+    text-align: center;
+    color: blueviolet;
+    padding-top: 25px;
+}
+
+.heading_3
+{
+    text-align: center;
+}
+
+.heading_4
+{
+    text-align: center;
+}
+
+.heading_5
+{
+    text-align: center;
+}
+
+.p1
+{
+    text-align: center;
+    color: blue;
+    padding: 1px;
+}
+
+.p2
+{
+    text-align: center;
+    color: violet;
+    font-size: large;
+}
+
+.p3
+{
+    text-align: center;
+    font-size: medium;
+    color: blue;
+}
+
+.p4
+{
+    text-align: center;
+    font-size: medium;
+    color: blue;
+}
+
+.p5
+{
+    text-align: center;
+    font-size: medium;
+    color: blue;
+}
+
+.bullet_1
+{
+    list-style-type: square;
+}
+
+.footer
+{
+    text-align: right;
+}

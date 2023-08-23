@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Date Methods</title>
+    <link rel = "stylesheet" type = "text/css" href = "styling.css">
+</head>
+
+<body>
+    <h1 class = "heading_4">
+        JavaScript Date Method
+    </h1>
+
+    <p class = "p4">
+        This is the date method result website.
+    </p>
+
+    <script>
+
+        //This is for the date method function
+        let date = new Date();
+        let dateHour = date.getHours();
+        let dateMinute = date.getMinutes();
+        let dateSecond = date.getSeconds();
+        let dateMilli = date.getMilliseconds();
+
+        //This is the for the date method result
+        document.write('<h3>JavaScript Date Methods Results</h3>');
+        document.write('<li>' + 'The new Date() method result is: ' + date + '</li>' + '<br>');
+        document.write('<li>' + 'The getHours() method result is: ' + dateHour + '</li>' + '<br>');
+        document.write('<li>' + 'The getMinutes() method result is: ' + dateMinute + '</li>' + '<br>');
+        document.write('<li>' + 'The getSecond() method result is: ' + dateSecond + '</li>' + '<br>');
+        document.write('<li>' + 'The getMilliseconds() method result is: ' + dateMilli + '</li>' + '<br>');
+
+    </script>
+</body>
+
+</html>

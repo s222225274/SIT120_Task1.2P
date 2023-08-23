@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScipt Number Methods</title>
+    <link rel = "stylesheet" type = "text/css" href = "styling.css">
+</head>
+<body>
+    
+    <h3>JavaScipt Number Methods:</h3>
+    <p>The chosen number is: <span id="chosenNum">1234.56</span></p>
+    <ul>
+        <li>The toFixed(2) method round off the digit to: <span id="numToFixed"></span></li>
+        <li>The toPrecision(5) method result: <span id="numToPrec"></span></li>
+        <li>The toString(2) method result: <span id="numToString"></span></li>
+        <li>The parseFloat(years 1.3 years) method result: <span id="parse_Float"></span></li>
+        <li>The parseInt("-1010.33") method result: <span id="parse_Int"></span></li>
+    </ul>
+
+    <script>
+        var chosenNum = 1234.56;
+        document.getElementById("numToFixed").textContent = chosenNum.toFixed(2);
+        document.getElementById("numToPrec").textContent = chosenNum.toPrecision(4);
+        document.getElementById("numToString").textContent = chosenNum.toString(2);
+        
+        var parsedFloat = parseFloat(" years 1.3");
+        document.getElementById("parse_Float").textContent = parsedFloat;
+
+        var parsed_Int = parseInt("-1010.33");
+        document.getElementById("parse_Int").textContent = parsedInt;
+    </script>
+</body>
+</html>
